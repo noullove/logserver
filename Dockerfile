@@ -120,7 +120,7 @@ COPY --chown=1000:0 health_check.sh /
 
 ENV PATH /usr/local/openjdk-8/bin:$PATH
 
-EXPOSE 9000 5044 9200 3000
+EXPOSE 9000 5044 9200 9300 3000
 USER logserver
 
 WORKDIR /opt/graylog
